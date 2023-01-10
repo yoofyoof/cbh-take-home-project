@@ -9,3 +9,5 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+I simplified the if-else conditions inside the function to be cleaner and more straightforward to read. 
+Originally, there was an if-statement in the outer-most scope of the function that checked if the partition key had been created, or otherwise assign it a trivial key. However, it makes more sense to put that decision within the first if-statement, since it also depends on whether the event exists. 
