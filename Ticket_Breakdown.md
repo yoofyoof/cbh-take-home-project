@@ -18,7 +18,7 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 ## Your Breakdown Here
 ticket1: 
 Create a new database table that saves custom ids and the facility id that corresponds to it or 
-add a colulumn in existing database table to save the custom ids.
+add a column in existing database table to save the custom ids.
 This ticket mostly requires mostly high level design effort. How we design to store the data now will
 have a long term effort down the stream in future and we should discuss with database team for consultation and this should take 1wk.
 
@@ -29,7 +29,7 @@ If this is the first time Custom creates the Id, the method will do a INSERT fun
 This will take 3 days including testing. 
 
 ticket3: 
-Work on the front end that allows facility to create their own id. This will be a simply javascript change and the new customId will be sent to backend and stored in database(implemented from ticket2).
+Work on the front end that allows facility to create their own id. This will be a simple javascript change and the new customId will be sent to backend and stored in database(implemented from ticket2).
 This will take 1-2 days including testing. 
 
 ticket4: 
